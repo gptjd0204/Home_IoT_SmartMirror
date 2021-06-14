@@ -100,24 +100,8 @@
 **4)	UpdateDeviceLambdaProject** <br/> 
 – 홈 IoT 제어 기기의 상태 정보 변경(ON, OFF)<br/> <br/> 
 
-### 3. Rule 생성
-AWS IoT Core에서 SNS를 보내기 위한 Rule과 DynamoDB에 상태 정보를 저장하기 위한 Rule 생성<br/>
-1. SNS Rule
-규칙(Rule)을 생성하고 다음 규칙 쿼리 설명문으로 설정
-```
-SELECT * FROM '$aws/things/SmartSAFE/shadow/update/accepted'
-```
-작업을 추가하여 *'메시지 데이터를 전달하는 Lambda 함수 호출'* 을 추가하고 앞서 ShockSNSLambda를 이용해 만든 Lambda 함수를 적용시킨다.
 
-2. DynamoDB Logging Rule
-규칙(Rule)을 생성하고 다음 규칙 쿼리 설명문으로 설정
-
-```
-SELECT *, 'SmartSAFE' as device FROM '$aws/things/SmartSAFE/shadow/update/documents'
-```
-작업을 추가하여 *'메시지 데이터를 전달하는 Lambda 함수 호출'* 을 추가하고 앞서 RecordingShockDataLambdaJavaProject와 RecordingOpenDataLambdaProject를 이용해 만든 Lambda 함수를 적용시킨다.
-
-### 4. RestAPI 생성
+### 3. RestAPI 생성
 
 API Gateway에서 다음과 같이 RestAPI 생성<br/>
 
