@@ -186,13 +186,15 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 안드로이드 홈 화면
   - 버튼을 클릭하면 다음 Activity에 RestAPI URL 전달
   
-
+![1_앱로딩화면](https://user-images.githubusercontent.com/71610969/121896585-6c254800-cd5c-11eb-8c6a-a18d86e9fd43.jpg)
+![2_앱홈화면](https://user-images.githubusercontent.com/71610969/121896595-6e87a200-cd5c-11eb-9de2-7cadfaf465dc.jpg)
 <br/> [Home_IoT_SmartMirror 로딩 및 홈 화면]<br/><br/>
 
 **2) HomeIotActivity.java** <br/>
   - 홈 상태 조회 및 제어 홈 화면
   - 버튼을 클릭하면 다음 Activity에 RestAPI URL 전달
 
+![3_홈IoT상태조회](https://user-images.githubusercontent.com/71610969/121896683-8a8b4380-cd5c-11eb-8252-22cb4e8bfb8e.jpg)
 
 <br/> [홈 상태 조회 및 제어 홈 화면]<br/><br/>
 
