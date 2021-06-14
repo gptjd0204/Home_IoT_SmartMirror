@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="홈 IoT 사용량"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/lightbulb"
+                    />
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                    <Button
+                        android:background="@drawable/rounded_rectangle_solid"
+                        android:textColor="#ffffff"
+                        android:id="@+id/lightUsageBtn"
+                        android:layout_width="200dp"
+                        android:layout_gravity="center"
+                        android:layout_height="60dp"
+                        android:text="사용량 조회"
+                        android:textSize="20dp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:background="@drawable/rounded_rectangle_v2"
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="거실 실내등"
+                    android:textSize="15dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/lightbulb"
+                    />
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                    <Button
+                        android:background="@drawable/rounded_rectangle_solid"
+                        android:textColor="#ffffff"
+                        android:id="@+id/secondLightUsageBtn"
+                        android:layout_width="200dp"
+                        android:layout_gravity="center"
+                        android:layout_height="60dp"
+                        android:text="사용량 조회"
+                        android:textSize="20dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:background="@drawable/rounded_rectangle_v2"
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="1번방 실내등"
+                    android:textSize="15dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/gas_valve"
+                    />
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                    <Button
+                        android:background="@drawable/rounded_rectangle_solid"
+                        android:textColor="#ffffff"
+                        android:id="@+id/gasUsageBtn"
+                        android:layout_width="200dp"
+                        android:layout_gravity="center"
+                        android:layout_height="60dp"
+                        android:text="사용량 조회"
+                        android:textSize="20dp"
+                        />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:background="@drawable/rounded_rectangle_v2"
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="가스 밸브"
+                    android:textSize="15dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="홈 IoT 스마트미러"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mirror"
+        />
+
+    <Button
+        android:id="@+id/thingShadowBtn"
+        android:background="@drawable/rounded_rectangle_solid"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="집 상태 조회"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <Button
+        android:id="@+id/thingUsageBtn"
+        android:background="@drawable/rounded_rectangle_solid"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="사용량 조회"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <Button
+        android:id="@+id/mirrorModeBtn"
+        android:background="@drawable/rounded_rectangle_solid"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="미러 모드"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/addMemoBtn"
+        android:background="@drawable/rounded_rectangle_solid"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="메모 추가"
+        android:textSize="20dp"
+        />
+
+
+</LinearLayout>

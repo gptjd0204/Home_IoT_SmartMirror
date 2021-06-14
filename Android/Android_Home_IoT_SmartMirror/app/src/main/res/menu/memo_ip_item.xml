@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/memo_settings1"
+        android:orderInCategory="100"
+        android:title="미러 IP 설정"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/memo_settings2"
+        android:orderInCategory="100"
+        android:title="현재 미러 IP 주소"
+        app:showAsAction="never" />
+</menu>

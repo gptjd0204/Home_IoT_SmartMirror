@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="홈 IoT 상태 조회"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TableRow
+            android:gravity="center"
+            android:weightSum="5">
+            <Button
+                android:id="@+id/firstLightShadowBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/lightbulb"
+                />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                />
+
+            <Button
+                android:id="@+id/secondLightShadowBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/lightbulb"
+                />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <TextView
+                android:id="@+id/lightShadowBtnText1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_rectangle_v2"
+                android:textColor="#ffffff"
+                android:text="거실 실내등"
+                android:textSize="20dp"
+                />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/lightShadowBtnText2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_rectangle_v2"
+                android:textColor="#ffffff"
+                android:text="1번방 실내등"
+                android:textSize="20dp"
+                />
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <TableRow
+            android:gravity="center">
+            <Button
+                android:id="@+id/gasShadowBtn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gas_valve"
+                />
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_rectangle_v2"
+                android:textColor="#ffffff"
+                android:text="가스 밸브"
+                android:textSize="20dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
