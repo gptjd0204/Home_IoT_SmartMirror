@@ -215,6 +215,8 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 홈 IoT 사용량 조회 홈 화면
   - 버튼을 클릭하면 다음 Activity에 RestAPI URL 전달
 
+
+![9_홈IoT사용량홈](https://user-images.githubusercontent.com/71610969/121897528-71cf5d80-cd5d-11eb-97fa-ecd4ea3d13b2.jpg)
 <br/> [홈 IoT 사용량 조회 홈 화면]<br/><br/>
 
 
@@ -222,17 +224,24 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 홈 IoT 사용량 조회 화면
   - 월별로 홈 사용량을 조회하여 표시
 
+![10_거실실내등사용량조회](https://user-images.githubusercontent.com/71610969/121897536-73992100-cd5d-11eb-9c2c-5c906477bf13.jpg)
 <br/> [홈 IoT 사용량 조회 화면]<br/><br/>
 
+![11_Month클릭](https://user-images.githubusercontent.com/71610969/121897542-74ca4e00-cd5d-11eb-8173-55e9c2edf46b.jpg)
+![12_Month클릭후](https://user-images.githubusercontent.com/71610969/121897543-7562e480-cd5d-11eb-8c47-1873424b2509.jpg)
+![13_사용량조회결과](https://user-images.githubusercontent.com/71610969/121897550-772ca800-cd5d-11eb-9e68-8bbb483d6092.jpg)
 <br/> [월별 홈 IoT 사용량 조회]<br/><br/>
 
 
 **5) HomeLightLogActivity.java, HomeSecondLightLogActivity.java, HomeGasLogActivity.java** <br/>
   - 홈 IoT 사용 시간 로그 조회 화면
   - 일별, 월별로 홈 IoT 사용 시간 로그를 조회하여 표시
-
+![14_거실실내등로그조회](https://user-images.githubusercontent.com/71610969/121897671-93c8e000-cd5d-11eb-9daf-4808be46a613.jpg)
+![15_로그조회홈](https://user-images.githubusercontent.com/71610969/121897678-9592a380-cd5d-11eb-8c61-99aab2e5f385.jpg)
 <br/> [홈 IoT 사용 시간 로그 조회 화면]<br/><br/>
 
+![16_Day클릭](https://user-images.githubusercontent.com/71610969/121897683-975c6700-cd5d-11eb-80b5-a15900832e5e.jpg)
+![17_로그조회결과](https://user-images.githubusercontent.com/71610969/121897689-988d9400-cd5d-11eb-9753-829e6f6e0cdc.jpg)
 <br/> [일별 홈 IoT 사용 시간 로그 조회]<br/><br/>
 
 
@@ -241,17 +250,19 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 현재 스마트 미러의 모드가 무엇인지 조회
   - 설정에서 모드 변경 가능
 
+![18_현관모드](https://user-images.githubusercontent.com/71610969/121897788-b0651800-cd5d-11eb-8b3d-454bf6815c8a.jpg)
 <br/> [스마트 미러 모드 변경 화면]<br/><br/>
 
+![19_모드변경설정](https://user-images.githubusercontent.com/71610969/121897795-b22edb80-cd5d-11eb-8ec4-f87f9676ac27.jpg)
+![20_심플모드로모드변경](https://user-images.githubusercontent.com/71610969/121897802-b3600880-cd5d-11eb-8992-594f22a9d112.jpg)
 <br/> [스마트 미러 모드 변경]<br/><br/>
 
 **7) AddMemoActivitiy.java** <br/>
   - 메모 추가 및 삭제 화면
   - 스마트 미러에 메모를 추가하거나 삭제
 
+![21_메모추가홈](https://user-images.githubusercontent.com/71610969/121897889-c5da4200-cd5d-11eb-9d27-644f54b49bbc.jpg)
 <br/> [메모 추가 및 삭제 화면]<br/><br/>
-
-<br/> [스마트 미러 메모 추가]<br/><br/>
 
 **8) MyYearMonthPickerDialog.java** <br/>
   - 년도와 월만 선택할 수 있는 DatePickerDialog
