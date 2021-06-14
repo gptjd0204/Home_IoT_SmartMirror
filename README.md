@@ -195,7 +195,6 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 버튼을 클릭하면 다음 Activity에 RestAPI URL 전달
 
 ![3_홈IoT상태조회](https://user-images.githubusercontent.com/71610969/121896683-8a8b4380-cd5c-11eb-8252-22cb4e8bfb8e.jpg)
-
 <br/> [홈 상태 조회 및 제어 홈 화면]<br/><br/>
 
 
@@ -203,9 +202,13 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
   - 홈 상태 조회 및 제어 화면
   - 켜기를 누르면 홈 상태 ON, 끄기를 누르면 홈 상태 OFF
 
-
+![4_거실실내등조회OFF](https://user-images.githubusercontent.com/71610969/121897326-359bfd00-cd5d-11eb-8cae-53dd5756aba9.jpg)
+![6_1번방OFF](https://user-images.githubusercontent.com/71610969/121897337-392f8400-cd5d-11eb-8489-6134243aed1a.jpg)
+![7_가스밸브OFF](https://user-images.githubusercontent.com/71610969/121897345-3a60b100-cd5d-11eb-9e77-edc02f6bcc9b.jpg)
 <br/> [홈 상태 조회 및 제어 화면]<br/><br/>
 
+![5_거실실내등ON](https://user-images.githubusercontent.com/71610969/121897416-4f3d4480-cd5d-11eb-8f13-0b9070727975.jpg)
+![8_가스밸브ON](https://user-images.githubusercontent.com/71610969/121897419-506e7180-cd5d-11eb-8970-bcb2b182a67b.jpg)
 <br/> [켜기 클릭 시]<br/><br/>
 
 **3) HomeIotUsageActivity.java** <br/>
