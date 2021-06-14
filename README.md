@@ -15,7 +15,8 @@
 
 ## 1. 홈 IoT 스마트 미러 구조도
 
-
+![홈IoT스마트미러구조도](https://user-images.githubusercontent.com/71610969/121895983-c8d43300-cd5b-11eb-833a-a0fa72ac8a0b.JPG)
+<br/>
 
 ## 2. 홈 IoT 스마트 미러 주요 기능
 
@@ -39,6 +40,8 @@
 
 ## 3. Arduino
 
+![홈IoT기기_내부](https://user-images.githubusercontent.com/71610969/121896205-00db7600-cd5c-11eb-8614-694721c8c17e.jpg)
+<br/>
 
 - 홈 IoT 제어 기기에 사용한 부품
   - ArduinoMKRWiFi1010
