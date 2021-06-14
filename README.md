@@ -236,6 +236,8 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
 **5) HomeLightLogActivity.java, HomeSecondLightLogActivity.java, HomeGasLogActivity.java** <br/>
   - 홈 IoT 사용 시간 로그 조회 화면
   - 일별, 월별로 홈 IoT 사용 시간 로그를 조회하여 표시
+
+
 ![14_거실실내등로그조회](https://user-images.githubusercontent.com/71610969/121897671-93c8e000-cd5d-11eb-9daf-4808be46a613.jpg)
 ![15_로그조회홈](https://user-images.githubusercontent.com/71610969/121897678-9592a380-cd5d-11eb-8c61-99aab2e5f385.jpg)
 <br/> [홈 IoT 사용 시간 로그 조회 화면]<br/><br/>
