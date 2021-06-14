@@ -32,11 +32,15 @@
 ## 2. 홈 IoT 스마트 미러
 
 ![스마트미러](https://user-images.githubusercontent.com/71610969/121899990-e4413d00-cd5f-11eb-852c-8d9eb9849f09.jpg)
+<br/> [홈 IoT 스마트 미러 외관]<br/><br/>
 ![홈IoT기기_실내등제어기기](https://user-images.githubusercontent.com/71610969/121900006-e86d5a80-cd5f-11eb-9232-f10395ea44a7.jpg)
 ![홈IoT기기_실내등제어실제부착사진](https://user-images.githubusercontent.com/71610969/121900010-e99e8780-cd5f-11eb-8130-3dac95176b30.jpg)
+<br/> [홈 IoT 제어기기 (실내등) 및 실제 부착사진]<br/><br/>
 ![홈IoT기기_가스밸브제어기기](https://user-images.githubusercontent.com/71610969/121900001-e73c2d80-cd5f-11eb-9331-244f406ea55c.jpg)
+<br/> [홈 IoT 제어기기 (가스밸브)]<br/><br/>
 ![스마트미러_안드로이드앱](https://user-images.githubusercontent.com/71610969/121899998-e60b0080-cd5f-11eb-8bd5-6d3038b23ef5.jpg)
-<br/>
+<br/> [안드로이드 앱]<br/><br/>
+
 
 ## 3. 홈 IoT 스마트 미러 구조도
 
