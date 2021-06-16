@@ -71,6 +71,18 @@
 
 ## 5. Raspberry Pi
 
+### MagicMirror (홈 IoT 스마트 미러 실행 소스 코드)
+
+**1) 홈 상태 표시<br/>**
+&nbsp;&nbsp;스마트 미러에 현재 집 내부에 상태를 홈 IoT 제어기기와 AWS를 통해 실시간으로 조회하여 표시해준다. <br/>
+<br/>
+**2) 시간, 날씨, 버스 도착 정보 표시<br/>**
+&nbsp;&nbsp;스마트 미러에 현재 시간, 날짜, 버스 도착 정보를 OpenWeatherAPI, 버스API 등을 활용하여 실시간으로 조회하여 표시해준다.<br/>
+<br/>
+**3) 음성 인식을 통한 홈 제어<br/>**
+&nbsp;&nbsp;스마트 미러 내부에 마이크가 탑재되어 있어 [거실 실내등 켜, 꺼], [1번 방 불 켜, 꺼], [가브밸브 켜, 꺼], [전부 꺼] 같은 명령어를 말하면 GoogleAssistant 음성 인식을 통해 홈 상태를 음성으로 쉽게 제어할 수 있다. <br/>
+<br/>
+
 ## 6. Arduino
 
 ![홈IoT기기_내부](https://user-images.githubusercontent.com/71610969/121896205-00db7600-cd5c-11eb-8614-694721c8c17e.jpg)
