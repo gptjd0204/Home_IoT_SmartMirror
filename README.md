@@ -9,7 +9,7 @@
 
 [4. 홈 IoT 스마트 미러 주요 기능](#4-홈-IoT-스마트-미러-주요-기능)
 
-[5. Raspberry Pi (MagicMirror)](#5-Raspberry-Pi-(MagicMirror))
+[5. Raspberry Pi](#5-Raspberry-Pi)
 
 [6. Arduino](#6-Arduino)
 
