@@ -73,14 +73,57 @@
 
 ### MagicMirror (홈 IoT 스마트 미러 실행 소스 코드)
 
-**1) 홈 상태 표시<br/>**
-&nbsp;&nbsp;스마트 미러에 현재 집 내부에 상태를 홈 IoT 제어기기와 AWS를 통해 실시간으로 조회하여 표시해준다. <br/>
+  -	MagicMirror 주요 소스 코드<br/>
+
+![1번실내등과가스밸브경고](https://user-images.githubusercontent.com/71610969/122232379-27cdaf80-cef6-11eb-86b4-4c409ffc756c.png)
+![심플모드홈](https://user-images.githubusercontent.com/71610969/122232395-2a300980-cef6-11eb-82ed-23afe010dcd6.png)
+
+### 1. MagicMirror/modules
+
+**1) default/clock<br/>**
+&nbsp;&nbsp;현재 시간을 표시해주는 모듈 <br/>
 <br/>
-**2) 시간, 날씨, 버스 도착 정보 표시<br/>**
-&nbsp;&nbsp;스마트 미러에 현재 시간, 날짜, 버스 도착 정보를 OpenWeatherAPI, 버스API 등을 활용하여 실시간으로 조회하여 표시해준다.<br/>
+**2) default/currentweather<br/>**
+&nbsp;&nbsp;현재 날짜를 표시해주는 모듈 (OpenWeather API를 활용하여 날짜 정보 받아옴) <br/>
 <br/>
-**3) 음성 인식을 통한 홈 제어<br/>**
-&nbsp;&nbsp;스마트 미러 내부에 마이크가 탑재되어 있어 [거실 실내등 켜, 꺼], [1번 방 불 켜, 꺼], [가브밸브 켜, 꺼], [전부 꺼] 같은 명령어를 말하면 GoogleAssistant 음성 인식을 통해 홈 상태를 음성으로 쉽게 제어할 수 있다. <br/>
+**3) default/alert<br/>**
+&nbsp;&nbsp;외출 시, 집 안 상태가 ON이면 경고 창 알림 모듈 <br/>
+<br/>
+**4) bus<br/>**
+&nbsp;&nbsp;버스 도착 정보를 표시해주는 모듈 <br/>
+<br/>
+**5) HomeGasModule, HomeLightModule<br/>**
+&nbsp;&nbsp;홈 IoT 제어기기(아두이노)에서 받은 실시간 홈 상태를 보여주는 모듈 <br/>
+<br/>
+**6) HomeModule<br/>**
+&nbsp;&nbsp;집 안 도면과 아이콘을 통해 홈 상태를 보여주는 모듈 <br/>
+<br/>
+**7) MMM-GoogleAssistant, MMM-Snowboy<br/>**
+&nbsp;&nbsp;음성인식을 통해 사용자가 명령어를 말하면 홈 상태를 제어해주는 모듈(명령어 : 거실 불 켜, 꺼/1번방 불 켜, 꺼/가스밸브 켜, 꺼/전부 꺼/거울 모드/스마트 미러 모드) <br/>
+<br/>
+**8) MMM-GoogleTTS<br/>**
+&nbsp;&nbsp;경고 알림 시, 음성을 통해 사용자에게 알려주는 모듈 <br/>
+<br/>
+**9) MMM-Memo<br/>**
+&nbsp;&nbsp;스마트 미러에 안드로이드 앱에서 사용자가 설정한 메모 또는 일정을 표시해주는 모듈 <br/>
+<br/>
+**10) ModeModule, MMM-Dynamic-Modules<br/>**
+&nbsp;&nbsp;스마트 미러의 모드를 변경시켜주는 모듈(현관 모드, 심플 모드) <br/>
+<br/>
+**11) PIRSensor<br/>**
+&nbsp;&nbsp;인체 감지 센서를 통해 스마트 미러 앞에 사람을 감지해주는 모듈 <br/>
+<br/>
+
+### 2. MagicMirror/config
+
+**1) config.js <br/>**
+&nbsp;&nbsp;config.js는 모듈을 설정해주는 파일로 config.js를 잘 설정해주어야 모듈이 제대로 실행. 사용하고 싶지 않은 모듈은 주석처리하면 실행되지 않음. <br/>
+<br/>
+
+### 3. MagicMirror/css
+
+**1) custum.css <br/>**
+&nbsp;&nbsp;각 모듈의 크기를 거울 크기에 맞게 조정하고 HomeModule, HomeLightModule, HomeGasModule의 css 설정.<br/>
 <br/>
 
 ## 6. Arduino
