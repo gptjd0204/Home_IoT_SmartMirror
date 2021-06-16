@@ -9,13 +9,15 @@
 
 [4. 홈 IoT 스마트 미러 주요 기능](#4-홈-IoT-스마트-미러-주요-기능)
 
-[5. Arduino](#5-Arduino)
+[5. Raspberry Pi (MagicMirror)](#5-Raspberry-Pi-(MagicMirror))
 
-[6. AWS](#6-AWS)
+[6. Arduino](#6-Arduino)
 
-[7. Android](#7-Android)
+[7. AWS](#7-AWS)
 
-[8. Raspberry Pi](#8-Raspberry-Pi)
+[8. Android](#8-Android)
+
+
 
 ## 1. 팀원 소개
 
@@ -67,7 +69,9 @@
 **6) 앱을 통한 스마트 미러 및 홈 제어 <br/>**
 &nbsp;&nbsp;안드로이드 앱을 통해 외부에서 집 상태를 조회하고 제어할 수 있으며 실내등, 가스밸브의를 몇 번 사용하였는지 사용량과 언제 사용하였는지의 로그기록을 확인할 수 있다. 또, 미러 모드 변경을 통해 홈 IoT 스마트미러의 모드를 외출 시 경고 기능,  버스 도착 시간 정보 표시 기능 등 홈 IoT 스마트미러에 모든 기능이 포함되어 현관에서 사용할 수 있는 현관모드와  불필요한 기능을 빼고 간단하게 홈 상태를 조회하고 제어하는 기능만 포함하여 집 안 어느 곳에서나 사용할 수 있는 심플모드로 변경할 수 있다. 마지막으로 안드로이드 앱의 메모 추가 기능을 이용해 스마트 미러에 간단한 메모 또는 일정을 추가하거나 삭제할 수 있다.
 
-## 5. Arduino
+## 5. Raspberry Pi(MagicMirror)
+
+## 6. Arduino
 
 ![홈IoT기기_내부](https://user-images.githubusercontent.com/71610969/121896205-00db7600-cd5c-11eb-8614-694721c8c17e.jpg)
 <br/>
@@ -97,7 +101,7 @@
 **4) Home_IoT_Gas.ino<br/>**
 &nbsp;AWS에 데이터를 보내고 받는 아두이노 코드로 AWS에서 받은 상태 정보를 이용하여 서보모터를 제어하여 가스밸브를 제어하고 상태 정보를 변경 <br/><br/>
 
-## 6. AWS
+## 7. AWS
 ### 1. AWS IoT 설정
 1. AWS IoT Core에서 'MyMKR1','MyMKR2','MyMKR3' 사물 생성
 2. DynamoDB에 FirstLightLogging 테이블 생성
@@ -190,7 +194,7 @@ API Gateway에서 다음과 같이 RestAPI 생성<br/>
 }
   ```
 
-## 7. Android
+## 8. Android
 
 ### 1. UI Java Code
 
