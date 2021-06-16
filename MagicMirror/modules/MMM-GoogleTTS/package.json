@@ -1,0 +1,13 @@
+{
+  "name": "MMM-GoogleTTS",
+  "version": "1.0.0",
+  "author": "eouia",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.5.1",
+    "grpc": "^1.23.4"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0"
+  }
+}

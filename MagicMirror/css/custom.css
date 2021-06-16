@@ -1,0 +1,98 @@
+/* 거울 크기에 맞게 모듈 크기 조절 */
+.module.clock {
+	zoom: 0.8;
+}
+
+.module.weatherforecast {
+	zoom: 0.8;
+}
+
+.module.currentweather {
+	zoom: 0.8;
+}
+
+/** HomeStateTable 모듈 CSS **/
+.module.HomeStateTable {
+	zoom: 1.4;
+	padding: 15px;
+	border-radius: 20px 20px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.module.HomeStateTable.header {
+	font-size: 20px;
+	color: red;
+}
+
+.module.HomeLightModule {
+	zoom: 1.0;
+	padding: 15px;
+	border-radius: 20px 20px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.module.HomeLightModule.header {
+	font-size: 20px;
+	color: red;
+}
+
+.module.HomeGasModule {
+	zoom: 1.0;
+	padding: 15px;
+	border-radius: 20px 20px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.module.HomeGasModule.header {
+	font-size: 20px;
+	color: red;
+}
+
+
+/** HomeModule(집 안 도면 홈 상태 표시 모듈 ) CSS **/
+.module.HomeModule {
+	background-image: url('room.png');
+	background-repeat:no-repeat;
+	background-size:400px 400px;
+	border-radius:8px;
+	font-size: 20px;
+	line-height: 22px;
+	color:white;
+	width: 400px;
+	height: 400px;
+}
+
+.Light1{
+
+  position:relative;
+
+  top: 150px;
+
+  left:40px;
+  
+  width: 50px;
+  height: 50px;
+}
+
+.Light2{
+  width: 50px;
+  height: 50px;
+  position:relative;
+    
+    top: 50px;
+    right: 150px;
+
+}
+
+.Gas{
+  width: 50px;
+  height: 50px;
+	position:relative;
+  top: 10px;
+	right: 110px;
+}
+
+
