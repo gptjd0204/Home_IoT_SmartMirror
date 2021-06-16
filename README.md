@@ -87,7 +87,7 @@
 &nbsp;&nbsp;현재 날짜를 표시해주는 모듈 (OpenWeather API를 활용하여 날짜 정보 받아옴) <br/>
 <br/>
 **3) default/alert<br/>**
-&nbsp;&nbsp;외출 시, 집 안 상태가 ON이면 경고 창 알림 모듈 <br/>
+&nbsp;&nbsp;외출 시, 집 안 상태가 ON이면 경고 창을 표시해주는 알림 모듈 <br/>
 <br/>
 **4) bus<br/>**
 &nbsp;&nbsp;버스 도착 정보를 표시해주는 모듈 <br/>
